@@ -1,0 +1,95 @@
+form div{
+    display: flex;
+}
+.form_right{
+    margin-right: 10px;
+}
+form div div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+input,select{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    border: none;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    margin-right: 20px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    border: none;
+}
+.back-color{
+    background-color: #EEEEEE;
+}
+.abbonez{
+    display: flex;
+    padding: 25px 0;
+}
+.mar-r-50{
+    margin-right: 50px; 
+}
+.mar-l-50{
+    margin-left: 50px;
+}
+.with{
+    width: 50%;
+}
+.abbonez_droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mail{
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    height: 40px;
+    color: #000;
+    border-radius: 20px;
+}
+@media screen and (max-width:830px){
+    form div{
+        flex-direction: column;
+    }
+    form div div{
+        width: 100%;
+    }
+    .abbonez {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+    }
+    .with {
+        width: 96%;
+    }
+    .mar-l-50 {
+        margin-left: 0px;
+    }
+    svg{
+        width: 65px;
+    }
+    textarea {
+        width: 100%;
+    }
+    .mar-r-50{
+        margin-right: 0;
+    }
+}
+
